@@ -1,0 +1,35 @@
+/** header styles **/
+.header{
+  background-image: url(https://images.unsplash.com/photo-1426869884541-df7117556757?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb);
+  background-position: center bottom;
+  height: 450px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 90%;
+}
+.overlay:before {
+  content: " ";
+  z-index: 1;
+  display: block;
+  position: absolute;   
+  height: 450px;
+  top: 40;
+  left: 5%;
+  width: 90%;
+  background: rgba(0, 0, 0, 0.2);
+}
+.overlay * {
+  position: relative; /* Makes elements display above overlay. */
+}
+h1{
+  color: white;
+
+  font-family: 'Lobster', sans-serif;
+  font-size: 80px;
+  margin: 0px;
+  padding-top: 12%;
+  text-align: center;
+  z-index: 2;
+  
+}
