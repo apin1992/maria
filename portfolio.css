@@ -49,10 +49,10 @@ li {
   display: inline-flex;
   padding: 15px;  
 }
-a {
+.nav-a {
   color: white;
 }
-a:hover {
+.nav-a:hover {
   color: lightblue;
 section {
   display: inline-flex;
@@ -117,7 +117,7 @@ h2 {
 
 }
 main {
-
+text-align: center;
 }
 img {
   width: 300px;
