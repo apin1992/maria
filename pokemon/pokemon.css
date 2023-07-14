@@ -1,0 +1,104 @@
+banner {
+  display: flex;
+  flex: repeat(3,1fr);
+  justify-content: center;
+  background-color: black;
+  height: 100px;
+  
+}
+nav {
+  justify-content: center;
+  display: flex;
+  height: 35px;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-color: black;
+}
+.banner-img {
+  width: 400px;
+}
+
+header {
+  background-image: url("https://media.game.es/CMS/Microsites/Pokemon-videojuegos-figuras-merchandising/Images/POSTER.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  margin-top: 50px;
+}
+header p {
+  color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+.our {
+  padding-top: 10px;
+}
+main {
+letter-spacing: 0.5rem; 
+background: linear-gradient(white, black);
+padding: 40px;
+margin-top: 60px;
+border-top: 1px solid red;
+}
+
+#press-start,
+#press-start-1 {
+  font-family: 'Press Start 2P', cursive;
+  -webkit-text-stroke: 1px black;
+}
+#monton,
+#monton-1 {
+  font-family: "Goblin One", cursive;
+    -webkit-text-stroke: 1px red;
+    color: white;
+}
+#article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+}
+.article-img {
+  height: 200px;
+  margin: 20px;
+
+}
+.absolute {
+  top: 0px;
+  font-family: "Goblin One", cursive;
+  -webkit-text-stroke: 1px red;
+  color: white;
+  letter-spacing: 0.5;
+}
+#green {
+  color: green;
+}
+#carouselExampleControls {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.carousel {
+
+  margin: 200px;
+}
+#meet {
+  padding-top: 30px;
+  color: black;
+  -webkit-text-stroke: 1px red;
+  font-family: "Press Start 2P", cursive;
+}
+footer {
+  font-family: "Goblin One", cursive;
+  -webkit-text-stroke: 1px white;
+  color: black;
+  padding-top: 0px;
+  text-align: center;
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0bedb362-1325-47fe-8fb8-8a1224de0221/def1knu-17d5f251-0deb-4b14-8229-29fa3ddfbfd9.png/v1/fill/w_1280,h_427,q_80,strp/pokemon_twitter_header_by_sailortrekkie92_def1knu-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDI3IiwicGF0aCI6IlwvZlwvMGJlZGIzNjItMTMyNS00N2ZlLThmYjgtOGExMjI0ZGUwMjIxXC9kZWYxa251LTE3ZDVmMjUxLTBkZWItNGIxNC04MjI5LTI5ZmEzZGRmYmZkOS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.BUKSZS-T76iqkw9K5abw8a3u2fPYsVuPMRYzQ8O0ujY");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+
+}
+
+

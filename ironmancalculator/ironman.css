@@ -1,0 +1,63 @@
+#image{
+  background-image: url("iron.png");
+  background-size:cover;
+  height:750px;
+}
+body {
+  background-color:black;
+}
+button { 
+  height: 80px;
+  width:80px;
+  border-radius: 40px;
+  background-color: red;
+  color:black;
+  border: solid;
+  font-size: 35px;
+  padding:10px;
+  font-family: arial;
+  cursor: pointer;
+  border-color:gold;
+}
+.plus {
+  background-color:gold;
+  border-color:red;
+  color:black;
+}
+.minus {
+  background-color: gold;
+  border-color:red;
+  color:black;
+}
+.times {
+  background-color: gold;
+  border-color:red;
+  color:black;
+ }
+ .divide { 
+  background-color: gold;
+  border-color:red;
+  color:black;
+ }
+ .total {
+  color:white;
+ }
+ .js-calculation {
+  color:gold;
+  font-family:arial;
+  font-size: 100px;
+  text-align: center;
+  position:center;
+ }
+ .clear {
+  font-size: 22px;
+ }
+ p {
+  text-align: center;
+  position:relative;
+ }
+ .js {
+  border: solid;
+  height: 110px;
+  border-color:gold;
+ }

@@ -1,0 +1,30 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-image: url(sp2.jpeg);
+  background-size:cover;
+  color: whitesmoke;
+  background-color: transparent;
+  text-align: center;
+}
+h1 {
+  color: red;
+}
+p, 
+li {
+  font-size: 18px;
+  list-style: none;
+
+}
+a {
+  text-decoration: underline;
+  color: red;
+}
+.img-div {
+  display: inline;
+}
+
+img {
+  width: 400px;
+  margin: 15px;
+  height: 250px;
+}
