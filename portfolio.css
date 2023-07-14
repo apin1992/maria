@@ -1,0 +1,287 @@
+html {
+  font-family: 'Caprasimo', cursive;
+  background-color: lightgray;
+}
+header {
+  color: white;
+  background-image: url("https://www.designyourway.net/blog/wp-content/uploads/2018/01/6985550-cool-desktop-backgrounds.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display:;
+  margin: 30px 0px;
+  height: 150px;
+  text-align: center;
+  background-position: center;
+  background-position: center;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: black;
+  
+}
+h1 {
+  padding-top:30px;
+  font-family: 'Lobster', cursive;
+  letter-spacing: 3px;
+}
+nav {
+  font-size: 23px;
+  background-color: black;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.martin {
+  color: white;
+  font-family: 'Lobster', cursive;
+  letter-spacing: 1px;
+}
+#duck-logo {
+  height: 60px;
+  width: 70px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+ul {
+}
+li {
+  display: inline-flex;
+  padding: 15px;  
+}
+section {
+  display: inline-flex;
+  margin: 20px;
+  background: linear-gradient(#0000ff, #292929);
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  box-shadow: 5px 5px 5px gray;
+
+  letter-spacing: 1px;
+  border-radius: 15px;
+}
+section:hover {
+  transform: scale(1.1);
+  box-shadow: 8px 8px 8px gray;
+}
+#article-my-name {
+  color: white;
+
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 70px;
+  background-image: url("https://cutewallpaper.org/28x/3s1ap1n5t/2844921247.jpg");
+  background-size:70%;
+  background-repeat:no-repeat;
+  background-position: center;
+  opacity: .95;
+ 
+  
+
+}
+#article-my-name p {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: .3px;
+  color: black;
+  padding-bottom: ;
+  margin-bottom:;
+  bottom: ;
+  line-height: 0.5;
+  font-size: 18px;
+  opacity: 1;
+}
+h2 {
+  top: ;
+  padding: ;
+  opacity: ;
+}
+#my-projects {
+  font-family: 'Lobster', cursive;
+  font-size:large;
+  background-color: darkblue;
+  color: white;
+  padding: 0px;
+  margin-top: 30px ;
+  background-image: url("https://e1.pxfuel.com/desktop-wallpaper/887/880/desktop-wallpaper-web-developer-front-end-developer.jpg");
+  text-align: center;
+  letter-spacing: 2px;
+  background-size: cover;
+  background-repeat:no-repeat;
+
+}
+main {
+  background-color:;
+}
+img {
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+}
+.my-hobbies {
+  background-color:;
+  color: white;
+  background-image: url("https://e1.pxfuel.com/desktop-wallpaper/887/880/desktop-wallpaper-web-developer-front-end-developer.jpg");
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  
+}
+h3 {
+  padding: 30px;
+  letter-spacing: 2px;
+  font-family: 'Lobster', cursive;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 420px) {
+  ul {
+    display: none;
+  }
+  nav {
+    justify-content: center;
+  }
+  header {
+    font-size: 14px;
+  }
+  #article-my-name {
+    color:;
+    background-size: cover;
+    height:;
+  }
+  #article-my-name p{ 
+    color: ;
+    font-size: ;
+    letter-spacing: 1.5px;
+    line-height: 1.1;
+  }
+}
+@media only screen and (min-width: 420px) and (max-width: 550px) {
+
+}
+@media only screen and (max-width: 550px) {
+img {
+  width: 350px;
+  height: 200px;
+  }  
+  nav {
+    justify-content: center;
+
+  }
+   ul li {
+    font-size: 14px;
+    color:;
+    text-decoration: none;
+  }
+  header {
+    font-size: 14px;
+  }
+  #article-my-name {
+    color:;
+    background-size: cover;
+    height:;
+  }
+  #article-my-name p{ 
+    color: ;
+    font-size: ;
+    letter-spacing: 1.5px;
+    line-height: 1.1;
+  }
+}
+@media only screen and (max-width: 750px) {
+  img {
+    width: 350px;
+    height: 200px;
+    }  
+    nav {
+      justify-content: center;
+  
+    }
+     ul li {
+      font-size: 14px;
+      color:;
+      text-decoration: none;
+    }
+    header {
+      font-size: 14px;
+    }
+    #article-my-name {
+      color:;
+      background-size: cover;
+      height:;
+    }
+    #article-my-name p{ 
+      color: ;
+      font-size: ;
+      letter-spacing: 1.5px;
+      line-height: 1.1;
+    }
+  }
+  @media only screen and (max-width: 950px) {
+    img {
+      width: 350px;
+      height: 200px;
+      }  
+      nav {
+        justify-content: ;
+    
+      }
+       ul li {
+        font-size: 14px;
+        color:;
+        text-decoration: none;
+      }
+      header {
+        font-size: 14px;
+      }
+      #article-my-name {
+        color:;
+        background-size: cover;
+        height:;
+      }
+      #article-my-name p{ 
+        color: ;
+        font-size: ;
+        letter-spacing: 1.5px;
+        line-height: 1.1;
+      }
+    }
+    @media only screen and (max-width: 1250px) {
+      img {
+        width: 350px;
+        height: 200px;
+        }  
+        nav {
+          justify-content: ;
+      
+        }
+         ul li {
+          font-size: 18px;
+          color:;
+          text-decoration: none;
+        }
+        header {
+          font-size: 18px;
+        }
+        #article-my-name {
+          color:;
+          background-size: cover;
+          height:;
+        }
+        #article-my-name p{ 
+          color: ;
+          font-size: ;
+          letter-spacing: 1.5px;
+          line-height: 1.1;
+        }
+      }
+@media only screen and (max-width: 1000px) {
+}
