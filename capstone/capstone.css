@@ -1,0 +1,376 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	font-family: 'raleway', sans-serif;
+	color: #2A364C;
+}
+h2{
+	font-size: 45px;
+	font-weight: 600;
+
+}
+h3{
+	font-size: 23px;
+	font-weight: 400;
+
+}
+h4{
+	font-size: 16px;
+
+}
+p{
+	font-weight: 200;
+}
+a{
+	text-decoration: none;
+	color: #2A364C; 
+}
+a:hover{
+	text-decoration: underline;
+}
+
+nav{
+	box-sizing: border-box;
+	height: 64px;
+	width: 100%;
+	position: fixed;
+	z-index: 2;
+	background: #f8e097;
+	padding-left: 24px;
+	padding-right: 24px;
+
+}
+nav img{
+	vertical-align: middle;
+	display: none;
+}
+main{
+	position: absolute;
+	top: 64px;
+}
+.logo{
+	width: 50px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+h1.logo-type{
+	display: inline-block;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	font-weight: 200;
+}
+ul{
+	float: right;
+	text-align: right;
+	display: inline-block;
+	padding: 22px;
+	margin: 0;
+}
+li{
+	display: inline-block;
+	padding-left: 16px;
+}
+.hero{
+	background-color: #652A0E;
+	padding: 0;
+	width: 100%;
+	box-sizing: border-box;
+	overflow: auto;
+	color: #FFFEF2;
+	
+}
+.hero img{
+	width: 60%;
+	padding-right: 24px;
+	vertical-align: middle;
+  background-color:;
+  border-right:;
+}
+.hero-text{
+	box-sizing: border-box;
+	width: 35%;
+	display: inline-block;
+	vertical-align: middle;
+	font-family: 'raleway',sans-serif;
+	font-weight: 400;
+}
+.type1 {
+	font-family:'Libre Baskerville','times new roman', serif;
+	font-size: 55px;
+	margin: 0;
+}
+button{
+	width: 100%;
+	padding: 16px;
+	color: white;
+	background: #f8e097;
+	border:none;
+	border-radius: 0;
+	margin: 10px auto;
+	font-family: 'raleway' sans-serif;
+	font-size: 22px;
+  cursor: pointer;
+  color: #652A0E;
+}
+button:hover {
+  color:;
+  transform: scale(1.05);
+  background-color:;
+  text-decoration: underline;
+}
+.subhero{
+	background-color: #7B3F00;
+	width: 100%;
+	box-sizing: border-box;
+	overflow: auto;
+	display: flex;
+  color: #fff;
+  border-top: #fff 1px solid;
+}
+.subhero:hover {
+
+}
+ .left{
+	float: left;
+	width: 60%;
+	padding: 90px 24px 32px;
+}
+ .right{
+	float: left;
+	border-left: 1px solid lightgray;
+	display: inline-block;
+	width: 40%;
+	padding-top: 74px;
+}
+.subhero img{
+	width: 100%;
+}
+.row{
+	padding: 16px;
+}
+.row:hover{
+	background-color: #f8e097;
+  color: #000;
+}
+.row .text{
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: middle;
+	width: 64%;
+}
+.row img{
+	box-sizing: border-box;
+	width: 35%;
+	vertical-align: middle;
+	height: auto;
+}
+.mobile-img{
+	display: none;
+}
+.start-learning{
+	background-color: #9A7B4F;
+	padding: 32px 72px;
+	width: 100%;
+	box-sizing: border-box;
+  color:#FFFEF2
+}
+.start-learning h2{
+	text-align: center;
+}
+.card{
+	display: inline-block;
+	width: 31%;
+	background: #652A0E;
+	margin: 16px;
+	height: 500px;
+	vertical-align: middle;
+
+}
+.card:hover{
+	transform: scale(1.05);
+
+}
+.card img{
+	width: 100%;
+}
+.card .text{
+	padding: 0 24px 24px;
+}
+.thesis-title h2{
+	width: 100%;
+	text-align: center;
+	background-color: #652A0E;
+  color: #fff;
+	margin: 0px;
+	padding: 40px 0 30px;
+	border-bottom: 1px solid lightgray;
+}
+
+.thesis-exhibit{
+	background-color: #C19A6B;
+	padding: 0 24px;
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+  color:#000;
+}
+.thesis .left{
+	padding-top: 16px;
+}
+video{
+	width: 100%;
+}
+footer{
+	width: 100%;
+	box-sizing: border-box;
+	height: 96px;
+	padding: 12px 24px 36px;
+	background-color: #652A0E;
+	color: #FFFEF2;
+}
+footer p,a{
+	display: inline-block;
+	vertical-align: top;
+	color: inherit;
+
+}
+/*media query*/
+
+@media only screen and (max-width: 1375px)
+{
+.hero img{
+	width: 40%;
+}
+
+
+@media only screen and (max-width: 400px)
+{
+	main{
+	position: absolute;
+	top: 160px;
+}
+h2{
+	font-size: 80px;
+}
+h3{
+	font-size: 55px;
+	margin-bottom: 48px;
+}
+p,a{
+	font-size: 42px;
+	margin-bottom: 46px;
+}
+
+
+.hero img{
+	width: 100%;
+	padding: 0px;
+}
+h1.logo-type{
+	display: none;
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+	height: 160px;
+}	
+.logo{
+	width: 80px;
+}
+
+nav img{
+	vertical-align: middle;
+	display: inline-block;
+	width: 80px;
+	margin: 0 auto;
+}
+ul{
+	display: none;
+}
+.type1{
+	font-size: 5em;
+}
+.hero-text{
+	box-sizing: border-box;
+	padding: 120px 60px;
+	width: 100%;
+}
+button{
+	width: 100%;
+	padding: 60px;
+	margin: 10px auto;
+	font-size: 70px;
+	}
+
+ .left{
+	display: none;
+}
+.right{
+	width: 100%;
+	padding-bottom: 60px;
+	padding-top: 0;
+
+}
+.row{ 
+	padding: 0 60px;
+}
+.row img{
+	display: none;
+}
+.row .text{
+	width: 100%;
+}
+.row .mobile-img{
+	display: block;
+	width: 100%;
+	margin-top: 75px;
+}
+.start-learning{
+	padding: 0 60px 120px;
+}
+.start-learning h2{
+	padding: 40px 0 15px;
+	margin: 0;
+}
+.card{
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 30px 0;
+}
+.card img{
+	display: none;
+}
+.card .text{
+	padding: 0;
+}
+.card h3{
+	padding: 16px 16px 24px 16px;
+	margin: 0;
+}
+.card .text p{
+
+	display: none;
+}
+.thesis-exhibit{
+	padding: 0;
+}
+.thesis-exhibit .left{
+	display: block;
+	padding: 0;
+	width: 100%;
+}
+.thesis-exhibit h3, .thesis-exhibit p{
+	display: none;
+}
+.thesis-exhibit .right{
+	display: none;
+}
+footer{
+	height: 173px;
+	padding: 12px 60px 36px;
+}
+footer p{
+	margin-top: 65px;
+}

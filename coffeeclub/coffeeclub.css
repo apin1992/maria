@@ -1,0 +1,202 @@
+html {
+  background-color: #efdecd;
+  font-family: "Ribeye Marrow", cursive;
+  background: url("h/jpg/01/83/29/16/1000_F_183291639_MoHAo5KxhhpS4YteqiEDMOapBvZ8FxLR.jpg");
+  letter-spacing: 1.2;
+}
+nav {
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #86592d;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  left: 0px;
+}
+li {
+  display: inline;
+  color: #fff;
+  font-size: 1.5rem;
+}
+li a {
+  display: ;
+  color: white;
+  text-align: center;
+  padding-right: 30px ;
+  text-decoration: none;
+}
+li a:hover {
+  color: #000;
+  cursor: pointer;hh
+}
+aside {
+  font-size: 1.3rem;
+  padding: 10px;
+  background-color: #86592d;
+  color: white;
+  text-align: center;
+}
+header {
+  margin-top: 50px;
+  background: url("https://static.vecteezy.com/system/resources/previews/004/684/788/original/black-and-white-coffee-shop-background-eps-free-vector.jpg") center no-repeat; 
+  color: white;
+  text-align: center;
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+header h1{
+  color: brown;
+ font-weight: bolder;
+  padding-top: 100px;
+  font-size: 5rem;
+  -webkit-text-stroke: 2px white;
+}
+header p {
+  font-size: 1.5rem;
+  background-color: #86592d;
+  color: white;
+}
+section {
+  display: flex;
+  justify-content: center;
+  background-color:;
+}
+article {
+  display: ;
+  margin: 10px;
+  border: 1px solid black;
+  justify-content: ;
+  width: 250px;
+  background-color: #86592d;
+  color: white;
+}
+article:hover {
+    transform: scale(1.1);
+  cursor: pointer;
+}
+article img{
+  width: 100%;
+  height: 50%;
+}
+article p {
+padding: 15px;
+text-align: center;
+}
+.this-event {
+  text-align: center;
+  background-color: #86592d;
+  color: white;
+  font-size: 1.5rem;
+  padding: 8px;
+}
+.section-1 {
+  margin: 20px;
+}
+.section-2 {
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: ;
+  background-color: #86592d;
+  color: white;
+  padding:;
+  margin-top: 10px;
+}
+.section-3 {
+  margin-bottom: 50px;
+  margin-top: 20px;
+  padding-top: 40px;
+}
+.section-3 img:hover {
+  transform: ;
+  cursor: pointer;
+}
+.section-4 {
+  padding-top: 50px;
+  width: cover;
+  height: 400px;
+}
+.section-4, img {
+  width: 80%;
+  height: 90%;  
+  max-width: 800px;
+}
+.article-1 {
+  background-color: #86592d;
+  height: 90% ;
+}
+.coffeeteers {
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #86592d;
+  color: white; 
+}
+footer {
+  text-align: center;
+  background-color: #86592d;
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  section {
+    display: inline-grid;
+  }
+  header p {
+    font-size: 1.1rem;
+  }
+  header h1 {
+    font-size: 2.5rem;
+  }
+  header{
+    width: 100%;
+    overflow: wrap;
+  }
+  a {
+    font-size: 1rem;
+    display: ;
+    border: ;
+    }
+  nav {
+    width: ;
+  }
+  article {
+    width: 250px;
+  }
+  .section-2{
+    width: 100%;
+    }
+  .section-3 img {
+    width: 300px;
+    height: 200px;
+  }
+  .section-4 img {
+    width: 100%;
+    height: 100%;
+  }
+  .section-4 {
+    height: 400px;
+  }
+  .section-3,
+  .section-4 {
+    justify-content: center;
+  }
+  .article-1 {
+  height: 90% ;
+  }
+  .article-1 img {
+    height: 100%
+  }
+  .coffeeteers { 
+  }
+  
+  
+  
+  
+  
+  
+  
+  
