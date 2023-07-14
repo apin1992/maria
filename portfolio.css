@@ -49,6 +49,11 @@ li {
   display: inline-flex;
   padding: 15px;  
 }
+a {
+  color: white;
+}
+a:hover {
+  color: lightblue;
 section {
   display: inline-flex;
   margin: 20px;
@@ -113,6 +118,7 @@ h2 {
 }
 main {
   background-color:;
+  text-align: center;
 }
 img {
   width: 300px;
