@@ -36,7 +36,7 @@ a {
   color: white;
 }
 a:hover {
-  color: blue;
+  color: lightblue;
 }
 .martin {
   color: white;
@@ -110,7 +110,7 @@ h2 {
   color: white;
   padding: 0px;
   margin-top: 30px ;
-  background-image: url("https://e1.pxfuel.com/desktop-wallpaper/887/880/desktop-wallpaper-web-developer-front-end-developer.jpg");
+  background-image: url("https://media.istockphoto.com/id/1286354786/es/vector/fondo-abstracto-texturizado-de-prisma-oscuro.jpg?s=612x612&w=0&k=20&c=IyqbnM7kqc1FmfTMJf2phHXcx-n5zx4zJnA1xqJdmZc=");
   text-align: center;
   letter-spacing: 2px;
   background-size: cover;
@@ -128,7 +128,7 @@ img {
 .my-hobbies {
   background-color:;
   color: white;
-  background-image: url("https://e1.pxfuel.com/desktop-wallpaper/887/880/desktop-wallpaper-web-developer-front-end-developer.jpg");
+  background-image: url("https://media.istockphoto.com/id/1286354786/es/vector/fondo-abstracto-texturizado-de-prisma-oscuro.jpg?s=612x612&w=0&k=20&c=IyqbnM7kqc1FmfTMJf2phHXcx-n5zx4zJnA1xqJdmZc=");
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
