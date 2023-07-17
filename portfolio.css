@@ -4,7 +4,7 @@ html {
 }
 header {
   color: white;
-  background-image: url("https://static.vecteezy.com/system/resources/previews/001/632/362/original/abstract-geometric-hexagonal-pattern-on-metal-black-background-free-vector.jpg");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT38dGgpNS3QaCXNMvXM8Q7Sn5sDscve6x8bg&usqp=CAU");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -34,7 +34,7 @@ a {
   color: white;
 }
 a:hover {
-  color: red;
+  color: gold;
 }
 .martin {
   color: white;
@@ -43,7 +43,7 @@ a:hover {
 }
 #duck-logo {
   height: 60px;
-  width: 70px;
+  width: 80px;
   margin-left: 15px;
   margin-top: 10px;
 }
@@ -56,7 +56,7 @@ li {
 section {
   display: inline-flex;
   margin: 20px;
-  background: linear-gradient(#ff0000, #292929);
+  background: linear-gradient(#ffd700, #292929);
   text-align: center;
   color: white;
   font-size: 20px;
@@ -76,7 +76,7 @@ section:hover {
   text-align: center;
   letter-spacing: 1px;
   padding: 70px;
-  background-image: url("https://cdn.staticcrate.com/stock-hd/effects/footagecrate-low-poly-background-black-wall@3X.png");
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/002/184/738/small/polygon-black-gold-background-free-vector.jpg");
   background-size:80%;
   background-repeat:no-repeat;
   background-position: center;
@@ -108,7 +108,7 @@ h2 {
   color: white;
   padding: 0px;
   margin-top: 30px ;
-  background-image: url("https://static.vecteezy.com/system/resources/previews/001/632/362/original/abstract-geometric-hexagonal-pattern-on-metal-black-background-free-vector.jpg");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqB7Z_NURNXyQtJtksXRXLIMmz-MUhwylDwtR9T7zxTjgysOdtQQTpHXK9G8Kj0oLZwFI&usqp=CAU");
   text-align: center;
   letter-spacing: 2px;
   background-size: cover;
@@ -126,7 +126,7 @@ img {
 .my-hobbies {
   background-color:;
   color: white;
-  background-image: url("https://static.vecteezy.com/system/resources/previews/001/632/362/original/abstract-geometric-hexagonal-pattern-on-metal-black-background-free-vector.jpg");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqB7Z_NURNXyQtJtksXRXLIMmz-MUhwylDwtR9T7zxTjgysOdtQQTpHXK9G8Kj0oLZwFI&usqp=CAU");
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -166,6 +166,9 @@ h3 {
     font-size: ;
     letter-spacing: 1.5px;
     line-height: 1.1;
+  }
+  h1 { 
+    font-size: 14px;
   }
 }
 @media only screen and (min-width: 420px) and (max-width: 550px) {
