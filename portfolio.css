@@ -4,7 +4,7 @@ html {
 }
 header {
   color: white;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT38dGgpNS3QaCXNMvXM8Q7Sn5sDscve6x8bg&usqp=CAU");
+  background-image: url("https://static.vecteezy.com/system/resources/previews/001/632/362/original/abstract-geometric-hexagonal-pattern-on-metal-black-background-free-vector.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -34,7 +34,7 @@ a {
   color: white;
 }
 a:hover {
-  color: gold;
+  color: lightgray;
 }
 .martin {
   color: white;
@@ -56,7 +56,7 @@ li {
 section {
   display: inline-flex;
   margin: 20px;
-  background: linear-gradient(#ffd700, #292929);
+  background: linear-gradient(#fff, #000);
   text-align: center;
   color: white;
   font-size: 20px;
@@ -76,7 +76,7 @@ section:hover {
   text-align: center;
   letter-spacing: 1px;
   padding: 70px;
-  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/002/184/738/small/polygon-black-gold-background-free-vector.jpg");
+  background-image: url("https://images.rawpixel.com/image_450/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtMjEtYmFja2dyb3VuZC1wbG95LTAyXzEuanBn.jpg");
   background-size:80%;
   background-repeat:no-repeat;
   background-position: center;
@@ -108,7 +108,7 @@ h2 {
   color: white;
   padding: 0px;
   margin-top: 30px ;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqB7Z_NURNXyQtJtksXRXLIMmz-MUhwylDwtR9T7zxTjgysOdtQQTpHXK9G8Kj0oLZwFI&usqp=CAU");
+  background-image: url("https://static.vecteezy.com/system/resources/previews/001/632/362/original/abstract-geometric-hexagonal-pattern-on-metal-black-background-free-vector.jpg");
   text-align: center;
   letter-spacing: 2px;
   background-size: cover;
@@ -126,7 +126,7 @@ img {
 .my-hobbies {
   background-color:;
   color: white;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqB7Z_NURNXyQtJtksXRXLIMmz-MUhwylDwtR9T7zxTjgysOdtQQTpHXK9G8Kj0oLZwFI&usqp=CAU");
+  background-image: url("https://static.vecteezy.com/system/resources/previews/001/632/362/original/abstract-geometric-hexagonal-pattern-on-metal-black-background-free-vector.jpg");
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
