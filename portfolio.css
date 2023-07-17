@@ -4,7 +4,7 @@ html {
 }
 header {
   color: white;
-  background-image: url("https://media.istockphoto.com/id/1286354786/es/vector/fondo-abstracto-texturizado-de-prisma-oscuro.jpg?s=612x612&w=0&k=20&c=IyqbnM7kqc1FmfTMJf2phHXcx-n5zx4zJnA1xqJdmZc=");
+  background-image: url("https://img.freepik.com/free-photo/color-smoke-abstract-wallpaper-aesthetic-background-design_53876-128237.jpg?size=626&ext=jpg&ga=GA1.1.299897473.1689264978&semt=ais");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -14,9 +14,7 @@ header {
   text-align: center;
   background-position: center;
   background-position: center;
-  -webkit-text-fill-color: white;
-  -webkit-text-stroke-width: .5px;
-  -webkit-text-stroke-color: black;
+
   
 }
 h1 {
@@ -36,7 +34,7 @@ a {
   color: white;
 }
 a:hover {
-  color: lightblue;
+  color: red;
 }
 .martin {
   color: white;
@@ -58,7 +56,7 @@ li {
 section {
   display: inline-flex;
   margin: 20px;
-  background: linear-gradient(#0000ff, #292929);
+  background: linear-gradient(#ff0000, #292929);
   text-align: center;
   color: white;
   font-size: 20px;
@@ -78,25 +76,24 @@ section:hover {
   text-align: center;
   letter-spacing: 1px;
   padding: 70px;
-  background-image: url("https://cutewallpaper.org/28x/3s1ap1n5t/2844921247.jpg");
-  background-size:70%;
+  background-image: url("https://img.freepik.com/premium-vector/luxury-abstract-red-dark-background-template-design_144648-214.jpg?size=626&ext=jpg&ga=GA1.1.299897473.1689264978&semt=ais");
+  background-size:80%;
   background-repeat:no-repeat;
   background-position: center;
-  opacity: .95;
+  
  
   
 
 }
 #article-my-name p {
-  -webkit-text-fill-color: white;
-  -webkit-text-stroke-width: .3px;
-  color: black;
+
+  color: white;
   padding-bottom: ;
   margin-bottom:;
   bottom: ;
   line-height: 0.5;
   font-size: 18px;
-  opacity: 1;
+
 }
 h2 {
   padding-top: 30px;
@@ -111,7 +108,7 @@ h2 {
   color: white;
   padding: 0px;
   margin-top: 30px ;
-  background-image: url("https://media.istockphoto.com/id/1286354786/es/vector/fondo-abstracto-texturizado-de-prisma-oscuro.jpg?s=612x612&w=0&k=20&c=IyqbnM7kqc1FmfTMJf2phHXcx-n5zx4zJnA1xqJdmZc=");
+  background-image: url("https://img.freepik.com/free-photo/color-smoke-abstract-wallpaper-aesthetic-background-design_53876-128237.jpg?size=626&ext=jpg&ga=GA1.1.299897473.1689264978&semt=ais");
   text-align: center;
   letter-spacing: 2px;
   background-size: cover;
@@ -129,7 +126,7 @@ img {
 .my-hobbies {
   background-color:;
   color: white;
-  background-image: url("https://media.istockphoto.com/id/1286354786/es/vector/fondo-abstracto-texturizado-de-prisma-oscuro.jpg?s=612x612&w=0&k=20&c=IyqbnM7kqc1FmfTMJf2phHXcx-n5zx4zJnA1xqJdmZc=");
+  background-image: url("https://img.freepik.com/free-photo/color-smoke-abstract-wallpaper-aesthetic-background-design_53876-128237.jpg?size=626&ext=jpg&ga=GA1.1.299897473.1689264978&semt=ais");
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
