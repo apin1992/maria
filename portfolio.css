@@ -74,7 +74,7 @@ section:hover {
   letter-spacing: 1px;
   padding: 70px;
   background-image: url("https://images.pexels.com/photos/14553701/pexels-photo-14553701.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load");
-  background-size:100%;
+  background-size:90%;
   background-repeat:no-repeat;
   background-position: center;
   opacity: ;
@@ -94,7 +94,7 @@ section:hover {
 
 }
 h2 {
-  padding-top: 30px;
+  padding-top:;
   top: ;
   padding: ;
   opacity: 1;
