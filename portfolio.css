@@ -28,6 +28,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
 }
 a {
   color: white;
@@ -42,8 +44,8 @@ a:hover {
 }
 #duck-logo {
   height: 60px;
-  width: 80px;
-  margin-left: 0px;
+  width: 90px;
+  margin-left: 10px;
   margin-top: 10px;
 }
 ul {
