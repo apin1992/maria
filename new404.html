@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hover Image Change</title>
+  <style>
+    body{
+      text-align: center;
+      background-color: rgb(1, 1, 32);
+      color: white;
+    }
+    header {
+      border-bottom: 1px solid gray;
+      font-size: 1.1rem;
+    }
+    img {
+      width:550px;
+      height: 450px;
+      margin-left: 30px;
+    }
+    p {
+      font-size: 2rem;
+      border: 1px solid red;
+      margin-left: 80px;
+    }
+    img {
+      border: 1px solid blue;
+    }
+    section{
+      display: inline-flex;
+      justify-content: sp;
+
+    }
+    article{
+      padding: 80px;
+      padding-top: 150px;
+
+      display: inline-flex;
+      flex-direction: column;
+    }
+  </style>
+</head>
+<body>
+  <header><h1>Welcome to Martin's website</h1></header>
+
+  <section> 
+    <!-- comment css --> 
+    <article>
+      <p id="pOne">Hover over this paragraph.</p>
+
+      <p id="pTwo">Hover over this paragraph.</p>
+
+      <p id="pThree">Hover over this paragraph.</p>
+  <p id="pFour">Hover over this paragraph.</p>
+    </article>
+
+    <article>
+       <img id="imageOne" src="images/abyss.png">
+       <!--
+ 
+       <img id="imageTwo" src="images/amazingspace.png">
+
+       <img id="imageThree" src="images/amazonclone.png">
+
+      
+         <img id="imageFour" src="images/bootstrap.png"> 
+       -->
+      </article>
+
+
+  </section>
+
+
+
+
+
+  
+  <script>
+    // first image
+    const imageOne = document.getElementById('imageOne');
+    const paragraphOne = document.getElementById('pOne');
+    
+    paragraphOne.addEventListener('mouseover', function() {
+      imageOne.src = 'images/code.png';
+    });
+    
+    paragraphOne.addEventListener('mouseout', function() {
+      imageOne.src = 'images/abyss.png';
+    });
+   // second image
+    const imageTwo = document.getElementById('imageTwo');
+    const paragraphTwo = document.getElementById('pTwo');
+    
+    paragraphTwo.addEventListener('mouseover', function() {
+      imageOne.src = 'images/amazingspace.png';
+    });
+    
+    paragraphTwo.addEventListener('mouseout', function() {
+      imageOne.src = 'images/abyss.png';
+    });
+   // third image
+    const imageThree = document.getElementById('imageThree');
+    const paragraphThree = document.getElementById('pThree');
+    
+    paragraphThree.addEventListener('mouseover', function() {
+      imageOne.src = 'images/bootstrap.png';
+    });
+    
+    paragraphThree.addEventListener('mouseout', function() {
+      imageOne.src = 'images/abyss.png';
+    });
+    // Fourth image
+    const imageFour = document.getElementById('imageFour');
+    const paragraphFour = document.getElementById('pFour');
+    
+    paragraphFour.addEventListener('mouseover', function() {
+      imageOne.src = 'images/tsunamicoffee.png';
+    });
+    
+    paragraphFour.addEventListener('mouseout', function() {
+      imageOne.src = 'images/abyss.png';
+    });
+
+
+
+
+  </script>
+</body>
+</html>

@@ -1,27 +1,24 @@
 html {
-  font-family: 'Caprasimo', cursive;
-  background-color: lightgray;
+  font-family: 'Space Mono', monospace;
+  
 }
 header {
   color: white;
-  background-image: url("https://www.designyourway.net/blog/wp-content/uploads/2018/01/6985550-cool-desktop-backgrounds.jpg");
+  background-image: url("https://static.vecteezy.com/system/resources/previews/001/632/362/original/abstract-geometric-hexagonal-pattern-on-metal-black-background-free-vector.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   display:;
   margin: 30px 0px;
-  height: 150px;
+  height: 100px;
   text-align: center;
   background-position: center;
   background-position: center;
-  -webkit-text-fill-color: white;
-  -webkit-text-stroke-width: .5px;
-  -webkit-text-stroke-color: black;
+
   
 }
 h1 {
-  padding-top:30px;
-  font-family: 'Lobster', cursive;
+  padding-top:20px;
   letter-spacing: 3px;
 }
 nav {
@@ -31,16 +28,25 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: ;
+  top: 0;
+  width: 100%;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: lightgray;
 }
 .martin {
   color: white;
-  font-family: 'Lobster', cursive;
   letter-spacing: 1px;
+  padding-bottom: 10px;
 }
 #duck-logo {
   height: 60px;
-  width: 70px;
-  margin-left: 15px;
+  width: 90px;
+  margin-left: 10px;
   margin-top: 10px;
 }
 ul {
@@ -52,7 +58,7 @@ li {
 section {
   display: inline-flex;
   margin: 20px;
-  background: linear-gradient(#0000ff, #292929);
+  background: linear-gradient(#fff, #000);
   text-align: center;
   color: white;
   font-size: 20px;
@@ -67,44 +73,42 @@ section:hover {
 }
 #article-my-name {
   color: white;
-
-  font-family: 'Lobster', cursive;
   text-align: center;
   letter-spacing: 1px;
   padding: 70px;
-  background-image: url("https://cutewallpaper.org/28x/3s1ap1n5t/2844921247.jpg");
-  background-size:70%;
+  background-image: url("https://images.pexels.com/photos/14553701/pexels-photo-14553701.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load");
+  background-size:90%;
   background-repeat:no-repeat;
   background-position: center;
-  opacity: .95;
+  opacity: ;
+
+  
  
   
 
 }
 #article-my-name p {
-  -webkit-text-fill-color: white;
-  -webkit-text-stroke-width: .3px;
-  color: black;
-  padding-bottom: ;
-  margin-bottom:;
-  bottom: ;
+
+  color: white;
+  letter-spacing: 1px;
   line-height: 0.5;
-  font-size: 18px;
+  font-size: 20px;
   opacity: 1;
+
 }
 h2 {
+  padding-top:;
   top: ;
   padding: ;
-  opacity: ;
+  opacity: 1;
 }
 #my-projects {
-  font-family: 'Lobster', cursive;
   font-size:large;
   background-color: darkblue;
   color: white;
   padding: 0px;
   margin-top: 30px ;
-  background-image: url("https://e1.pxfuel.com/desktop-wallpaper/887/880/desktop-wallpaper-web-developer-front-end-developer.jpg");
+  background-image: url("https://static.vecteezy.com/system/resources/previews/001/632/362/original/abstract-geometric-hexagonal-pattern-on-metal-black-background-free-vector.jpg");
   text-align: center;
   letter-spacing: 2px;
   background-size: cover;
@@ -112,7 +116,7 @@ h2 {
 
 }
 main {
-  background-color:;
+  text-align: center;
 }
 img {
   width: 300px;
@@ -122,7 +126,7 @@ img {
 .my-hobbies {
   background-color:;
   color: white;
-  background-image: url("https://e1.pxfuel.com/desktop-wallpaper/887/880/desktop-wallpaper-web-developer-front-end-developer.jpg");
+  background-image: url("https://static.vecteezy.com/system/resources/previews/001/632/362/original/abstract-geometric-hexagonal-pattern-on-metal-black-background-free-vector.jpg");
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -132,7 +136,7 @@ img {
 h3 {
   padding: 30px;
   letter-spacing: 2px;
-  font-family: 'Lobster', cursive;
+
 }
 
 
@@ -162,6 +166,9 @@ h3 {
     font-size: ;
     letter-spacing: 1.5px;
     line-height: 1.1;
+  }
+  h1 { 
+    font-size: 14px;
   }
 }
 @media only screen and (min-width: 420px) and (max-width: 550px) {

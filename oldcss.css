@@ -1,0 +1,154 @@
+html{
+  font-family: 'Orbitron', sans-serif;
+
+}
+body{
+  background-image: url("https://cdn.britannica.com/49/182849-050-4C7FE34F/scene-Iron-Man.jpg");
+}
+nav  {
+  background-color: black;
+  color: white;
+  display: flex;
+  width: 100%;
+  position: ;
+  z-index: 1;
+  justify-content: center;
+  margin-top: -10px;
+  font-size: 1.4rem;
+  position: relative;
+  
+}
+
+nav p {
+  padding-left: 1rem;
+  margin-left: ;
+  padding-left: 20px;
+}
+ul {
+  list-style: none;
+  display:flex;
+  align-items: end;
+}
+li {
+  padding-right: 3rem;
+}
+section{
+ margin: 30px;
+ justify-content: space-between;
+  display: flex;
+  
+}
+a {
+  text-decoration: none;
+  color: white;
+  
+}
+a:hover{
+  text-decoration:;
+}
+article{
+  ont-family: 'Lobster', cursive;
+  background-color: black;
+  color:;
+font-size: 2rem;
+margin-left: 10%;
+margin-top: 5%;
+padding: 90px;
+margin-top:3.5%;;
+padding-left: 90px;
+padding-right: 90px;
+}
+article p:hover {
+color: red;
+font-size:;
+}
+.p-1:hover:hover{
+
+}
+
+.container {
+  position: relative;
+  width: 90%;
+  
+}
+.container .image, .container p:hover::before {
+  width: 600px;
+  height: 500px;
+}
+.container .image {
+  display: inline-block;
+}
+.container div.paragraph {
+  width: 45%;
+  height: 100vh;
+  display: inline-block;
+  ;
+}img{
+  margin-right: 10%;
+  margin-top: 5%;
+  max-width:;
+  right: 0;
+}
+.container p:hover::before {
+  position: absolute;
+  top: 9%;
+  left:55%;
+  content: '';
+  background-image: var(--bg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat no-repeat;
+
+
+}
+.image-placeholder {
+  max-width: 650px;
+  width: ;
+  position:;
+  
+}
+image{
+  max-width: 650px;
+  }
+iv {
+  background-image:url("https://picsum.photos/id/1015/1024/384.jpg");
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  
+}
+.container a:nth-child(1) {
+  --bg: url(https://thumbs.dreamstime.com/b/projects-concept-black-chalkboard-d-rendering-handwritten-top-view-office-desk-lot-business-office-supplies-79906734.jpg);
+
+}
+.container a:nth-child(2) {
+  --bg: url(https://picsum.photos/id/1016/1024/384.jpg);
+  
+}
+.container a:nth-child(3):hover {
+  --bg: url(https://picsum.photos/id/1018/1024/384.jpg);
+  
+}
+.container a:nth-child(4) {
+  --bg: url(https://picsum.photos/id/1024/1024/384.jpg);
+  
+}
+footer{
+  background-color: black;
+  color: white;
+  display: flex;
+  width: 99.5%;
+  overflow:hidden;
+  position: ;
+  z-index: 1;
+  justify-content: center;
+  margin-top: ;
+  font-size: 1.2rem;
+  position: ;
+  bottom:0.01%;
+  height: 60px;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+}
