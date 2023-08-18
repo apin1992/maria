@@ -1,6 +1,5 @@
 html {
-  font-family: 'Space Mono', monospace;
-  
+  font-family: 'Orbitron', monospace, sans-serif;
 }
 header {
   color: white;
@@ -8,14 +7,18 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  display:;
   margin: 30px 0px;
   height: 100px;
   text-align: center;
   background-position: center;
   background-position: center;
-
-  
+}
+.fire-img {
+  margin-left: 50px;
+}
+.about-me {
+  display: flex;
+  flex-direction: colum;
 }
 h1 {
   padding-top:20px;
@@ -28,7 +31,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: ;
   top: 0;
   width: 100%;
 }
@@ -48,8 +50,6 @@ a:hover {
   width: 90px;
   margin-left: 10px;
   margin-top: 10px;
-}
-ul {
 }
 li {
   display: inline-flex;
@@ -80,26 +80,15 @@ section:hover {
   background-size:90%;
   background-repeat:no-repeat;
   background-position: center;
-  opacity: ;
-
-  
- 
-  
-
 }
 #article-my-name p {
-
   color: white;
   letter-spacing: 1px;
   line-height: 0.5;
   font-size: 20px;
   opacity: 1;
-
 }
 h2 {
-  padding-top:;
-  top: ;
-  padding: ;
   opacity: 1;
 }
 #my-projects {
@@ -113,7 +102,6 @@ h2 {
   letter-spacing: 2px;
   background-size: cover;
   background-repeat:no-repeat;
-
 }
 main {
   text-align: center;
@@ -124,28 +112,16 @@ img {
   border-radius: 15px;
 }
 .my-hobbies {
-  background-color:;
   color: white;
   background-image: url("https://static.vecteezy.com/system/resources/previews/001/632/362/original/abstract-geometric-hexagonal-pattern-on-metal-black-background-free-vector.jpg");
   text-align: center;
   background-size: cover;
-  background-repeat: no-repeat;
-
-  
+  background-repeat: no-repeat; 
 }
 h3 {
   padding: 30px;
   letter-spacing: 2px;
-
 }
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 420px) {
   ul {
     display: none;
@@ -157,13 +133,9 @@ h3 {
     font-size: 14px;
   }
   #article-my-name {
-    color:;
-    background-size: cover;
-    height:;
+  background-size: cover;
   }
   #article-my-name p{ 
-    color: ;
-    font-size: ;
     letter-spacing: 1.5px;
     line-height: 1.1;
   }
@@ -172,7 +144,6 @@ h3 {
   }
 }
 @media only screen and (min-width: 420px) and (max-width: 550px) {
-
 }
 @media only screen and (max-width: 550px) {
 img {
@@ -181,24 +152,18 @@ img {
   }  
   nav {
     justify-content: center;
-
   }
    ul li {
     font-size: 14px;
-    color:;
     text-decoration: none;
   }
   header {
     font-size: 14px;
   }
   #article-my-name {
-    color:;
     background-size: cover;
-    height:;
   }
   #article-my-name p{ 
-    color: ;
-    font-size: ;
     letter-spacing: 1.5px;
     line-height: 1.1;
   }
@@ -210,24 +175,18 @@ img {
     }  
     nav {
       justify-content: center;
-  
     }
      ul li {
       font-size: 14px;
-      color:;
       text-decoration: none;
     }
     header {
       font-size: 14px;
     }
     #article-my-name {
-      color:;
       background-size: cover;
-      height:;
     }
     #article-my-name p{ 
-      color: ;
-      font-size: ;
       letter-spacing: 1.5px;
       line-height: 1.1;
     }
@@ -237,26 +196,17 @@ img {
       width: 350px;
       height: 200px;
       }  
-      nav {
-        justify-content: ;
-    
-      }
        ul li {
         font-size: 14px;
-        color:;
         text-decoration: none;
       }
       header {
         font-size: 14px;
       }
       #article-my-name {
-        color:;
         background-size: cover;
-        height:;
       }
       #article-my-name p{ 
-        color: ;
-        font-size: ;
         letter-spacing: 1.5px;
         line-height: 1.1;
       }
@@ -266,26 +216,17 @@ img {
         width: 350px;
         height: 200px;
         }  
-        nav {
-          justify-content: ;
-      
-        }
          ul li {
           font-size: 18px;
-          color:;
           text-decoration: none;
         }
         header {
           font-size: 18px;
         }
         #article-my-name {
-          color:;
           background-size: cover;
-          height:;
         }
         #article-my-name p{ 
-          color: ;
-          font-size: ;
           letter-spacing: 1.5px;
           line-height: 1.1;
         }
